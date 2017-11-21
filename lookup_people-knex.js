@@ -30,4 +30,5 @@ knex.select().from('famous_people')
       console.log('Searching...');
       console.log(`No person exists by the name of ${args}`);
   }
+  knex.destroy();
 });
